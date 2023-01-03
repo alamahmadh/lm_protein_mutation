@@ -18,9 +18,9 @@ from scipy.stats import entropy, spearmanr, rankdata
 
 from sklearn.model_selection import train_test_split
 
-#directory the data from Haddox et al (2018)
+#directory the data from https://doi.org/10.7554/eLife.34420
 data_dir = 'dms_data/haddox2018/data/'
-#!cp data/hiv/fitness_haddox2018/BG505_avgprefs.csv dms_data/haddox2018/data/BG505_avgprefs.csv
+#cp data/hiv/fitness_haddox2018/BG505_avgprefs.csv dms_data/haddox2018/data/BG505_avgprefs.csv
 
 #consider two env proteins
 homologs = [ 'BF520', 'BG505']
