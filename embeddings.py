@@ -64,5 +64,5 @@ print('#########################################################################
 
 print('SAVE THE EMBEDDINGS...')
 #save the esm_results into gz file
-with gzip.open(f'embedding_output/{args.name}.pkl.gz', 'wb') as f:
+with gzip.open(f'output_embeddings/{args.name}.pkl.gz', 'wb') as f:
     pickle.dump(esm_results, f)
